@@ -1,11 +1,11 @@
-About r-hrbrthemes
-==================
+About r-hrbrthemes-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-hrbrthemes-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/hrbrmstr/hrbrthemes
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-hrbrthemes-feedstock/blob/main/LICENSE.txt)
 
 Summary: A compilation of extra 'ggplot2' themes, scales and utilities, including a  spell check function for plot label fields and an overall emphasis on typography.  A copy of the 'Google' font 'Roboto Condensed' <https://github.com/google/roboto/>  is also included along with a copy of the 'IBM' 'Plex Sans' <https://github.com/IBM/type> and 'Titillium Web' <https://fonts.google.com/specimen/Titillium+Web> fonts are also included to support their respective typography-oriented themes.
 
