@@ -1,4 +1,4 @@
-{% set version = "0.8.0" %}
+{% set version = "0.8.7" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,12 +10,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/hrbrthemes_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/hrbrthemes/hrbrthemes_{{ version }}.tar.gz
-  sha256: ecfe33ff0907f141c84587376274d2c8249f03938f72e7a5676d945b1630f014
+  sha256: 5a492ebee434b97d55d165243a7fcd704198c72aeb17c25d88be5c3f3ae3996f
 
 build:
   noarch: generic
   merge_build_host: true  # [win]
-  number: 3
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -52,8 +52,7 @@ test:
 about:
   home: http://github.com/hrbrmstr/hrbrthemes
   license: MIT
-  summary: A compilation of extra 'ggplot2' themes, scales and utilities, including a  spell check function for plot label fields and an overall emphasis on typography.  A
-    copy of the 'Google' font 'Roboto Condensed' <https://github.com/google/roboto/>  is also included along with a copy of the 'IBM' 'Plex Sans' <https://github.com/IBM/type>
+  summary: A compilation of extra 'ggplot2' themes, scales and utilities, including a  spell check function for plot label fields and an overall emphasis on typography.  A copy of the 'Google' font 'Roboto Condensed' <https://github.com/google/roboto/>  is also included along with a copy of the 'IBM' 'Plex Sans' <https://github.com/IBM/type>
     and 'Titillium Web' <https://fonts.google.com/specimen/Titillium+Web> fonts are also included to support their respective typography-oriented themes.
   license_family: MIT
   license_file:
